@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 public class Testing14 {
     public static void main(String[] args) {
         //snippet code: gõ code nhanh
-        // comment code: ctrl + / để cmt hàng loạt
+        // comment code: ctrl + / để cmt hàng loạt (hoặc để gỡ cmt)
         //1. Lệnh xuất dữ liệu/in dữ liệu
 //            System.out.print("abc"); //dữ liệu in ra nằm trên cùng 1 dòng
 //            System.out.println("Hello World"); //dữ liệu in ra nằm tách dòng

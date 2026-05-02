@@ -4,9 +4,11 @@ public class Testing14_continue {
     public static void main(String[] args) {
         int soA = 10;
         int soB = 20;
-        //array(Mảng): là một cấu trúc dữ liệu dùng để lưu trữ nhiều giá trị cùng một kiểu dữ liệu và cùng mục đích sử dụng
+        //array(Mảng): là một cấu trúc dữ liệu dùng để lưu trữ nhiều giá trị cùng một kiểu dữ liệu và cùng một mục đích sử dụng
+        //các phần tử trong array là cố định, khi sử dụng array cần phải biết trước số lượng phần tử nằm trong mảng. Điều này khác với arraylist
+        //arraylist: là cấu trúc dữ liệu động, có thể thay đổi kích thước mảng (số lượng phần tử bên trong mảng)
         //khai báo biến: kiểu dữ liệu tenBien = giá trị;
-        //khai báo mảng: kiểu dữ liệu[] tenMang = new kiểu dữ liệu[kích thước]; kích thước là số lượng phần tử nằm trong mảng
+        //khai báo mảng array: kiểu dữ liệu[] tenMang = new kiểu dữ liệu[kích thước]; kích thước là số lượng phần tử nằm trong mảng
         int[] mangSo = new int[5];
         //gán giá trị cho phần tử của mảng: tenMang[index] = giá trị;
         mangSo[0] = 1; //vị trí của giá trị trong 1 mảng được gọi là index, bắt đầu từ 0
@@ -23,7 +25,11 @@ public class Testing14_continue {
         System.out.println("Giá trị của mảng: " + Arrays.toString(mangTen));
         mangTen[0] = "Nguyễn Bảo Giang"; //update phần tử
         System.out.println("Giá trị của phần tử có index 0: " + mangTen[0]);
+
         System.out.println("Số lượng phần tử trong mảng: " + mangTen.length); //.length: trả về số lượng phần tử bên trong mảng
+        //Số lượng phần tử cũng có thể viết như sau:
+        int soLuong = mangTen.length;
+        System.out.println("Số lượng phần tử trong mảng: " + soLuong);
 
         //kết hợp Mảng với Vòng lặp để lấy ra từng phần tử gọi là Duyệt mảng
         //Duyệt mảng: sử dụng vòng lặp for để duyệt qua tất cả phần tử của mảng
@@ -79,9 +85,6 @@ public class Testing14_continue {
         String so6 = "200";
         int so7 = Integer.parseInt(so6); //ép kiểu từ chuỗi sang số
         //cú pháp: Kiểu dữ liệu tenBien = kiểu dữ liệu cần chuyển.parseKiểu dữ liệu(giá trị cần chuyển)
-
-
-
 
 
     }
