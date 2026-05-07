@@ -4,9 +4,9 @@ public class Testing14_continue {
     public static void main(String[] args) {
         int soA = 10;
         int soB = 20;
-        //array(Mảng): là một cấu trúc dữ liệu dùng để lưu trữ nhiều giá trị cùng một kiểu dữ liệu và cùng một mục đích sử dụng
+        //array(Mảng): là một cấu trúc dữ liệu dùng để lưu trữ nhiều giá trị với cùng một kiểu dữ liệu và cùng một mục đích sử dụng
         //các phần tử trong array là cố định, khi sử dụng array cần phải biết trước số lượng phần tử nằm trong mảng. Điều này khác với arraylist
-        //arraylist: là cấu trúc dữ liệu động, có thể thay đổi kích thước mảng (số lượng phần tử bên trong mảng)
+        //arraylist: là cấu trúc dữ liệu động, có thể thay đổi kích thước mảng (tức số lượng phần tử bên trong mảng)
         //khai báo biến: kiểu dữ liệu tenBien = giá trị;
         //khai báo mảng array: kiểu dữ liệu[] tenMang = new kiểu dữ liệu[kích thước]; kích thước là số lượng phần tử nằm trong mảng
         int[] mangSo = new int[5];

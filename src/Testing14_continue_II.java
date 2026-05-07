@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Testing14_continue_II {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //arraylist: là một cấu trúc dữ liệu động, có thể thay đổi kích thước trong quá trình thực thi chương trình
+        //arraylist: là một cấu trúc dữ liệu động (dynamic), có thể thay đổi kích thước trong quá trình thực thi chương trình, không bị ràng buộc về số lượng như Array.
         //cú pháp: Arraylist<kiểu dữ liệu> tenArrayList = new ArrayList<>();
 
         //ví dụ: mảng điện thoại: iphone, samsung, xiaomi, oppo, realme
@@ -74,61 +74,3 @@ public class Testing14_continue_II {
         System.out.println("Có số 3 trong list số không? " + is3);
     }
 }
-
-        //OBJECT và CLASS
-        //CLASS: là khuôn mẫu để tạo ra các đối tượng, class định nghĩa các thuộc tính và phương thức dùng chung của đối tượng.
-        //OBJECT: là một thực thể được tạo ra từ CLASS, nó có các thuộc tính và phương thức được định nghĩa bên trong CLASS.
-        //từ một CLASS duy nhất có thể tạo ra nhiều OBJECT
-        //CLASS là bản thiết kế ngôi nhà, OBJECT là ngôi nhà được xây dựng từ bản thiết kế đó.
-
-        //Ví dụ: tạo ra class SINH VIÊN có tên, tuổi, điểm Toán, điểm Lý, điểm Hóa, điểm trung bình, xếp loại
-        class sinhVien {
-            //thuộc tính
-            public String ten;
-            private int tuoi;
-            private double diemToan;
-            private double diemLy;
-            private double diemHoa;
-
-        //PHẠM VI TRUY CẬP (PUBLIC, PRIVATE, READONLY)
-        //PUBLIC*: cho phép truy cập từ bất kỳ đâu trong chương trình,
-        //đồng nghĩa với việc có thể read, update, delete giá trị bên trong thuộc tính
-        //PRIVATE*: chỉ cho phép truy cập từ bên trong class (tức là truy cập thông qua các phương thức)
-        //READONLY*: chỉ cho phép truy cập từ bên trong class (truy cập thông qua các phương thức), và không cho phép update/delete giá trị bên trong thuộc tính
-
-        //constructor: là một phương thức do Java định nghĩa dùng để khởi tạo các lớp đối tượng, nó có cùng tên với class
-        //nhiệm vụ của constructor là khi user nhập giá trị vào thì constructor sẽ gắn các giá trị đó vào thuộc tính. Ví dụ:
-        public sinhVien(String ten, int tuoi, double diemToan, double diemLy, double diemHoa){
-            this.ten = ten;
-            this.tuoi = tuoi;
-            this.diemToan = diemToan;
-            this.diemLy = diemLy;
-            this.diemHoa = diemHoa;
-        }
-            //phương thức
-            //TẠO HÀM (hay tạo phương thức) CÓ giá trị trả về hoặc KHÔNG CÓ giá trị trả về (void)
-            //CÓ giá trị trả về:
-            //cú pháp: public kiểu dữ liệu trả về tenPhuongThuc(){logic sử dụng các thuộc tính của đối tượng; return giá trị;}
-            //KHÔNG CÓ giá trị trả về:
-            //cú pháp: public void tenPhuongThuc(){logic sử dụng các thuộc tính của đối tượng;}
-
-            //tính điểm trung bình: sử dụng phương thức có giá trị trả về
-            public double tinhDiemTrungBinh(){ //tạo phương thức tinhDiemTrungBinh
-                double diemTrungBinh = (diemToan + diemLy + diemHoa) / 3;
-                return diemTrungBinh;
-            }
-
-            //xếp loại: sử dụng phương thức tạo hàm không có giá trị trả về
-            public void xepLoai(){
-                double diemTrungBinh = tinhDiemTrungBinh();
-                if(diemTrungBinh >= 8){
-                    System.out.println("Học sinh đạt loại giỏi");
-                } else if (diemTrungBinh >= 6.5) {
-                    System.out.println("Học sinh đạt loại khá");
-                } else if (diemTrungBinh >= 5) {
-                    System.out.println("Học sinh đạt loại trung bình");
-                } else {
-                    System.out.println("Học sinh đạt loại yếu");
-                }
-            }
-        }

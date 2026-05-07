@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eda8b946-7b12-4d40-92c9-0bd40daaba1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Testing14_continue_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Testing14_continue_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Testing14_continue_IV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_tap/buoi5/baitap_buoi5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_tap/buoi5/quanLySinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_tap/buoi5/quan_ly_nhan_vien/baitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bai_tap/buoi5/sinhVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testing14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testing14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Testing14_continue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testing14_continue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testing14_continue_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testing14_continue_II.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="3AZX4XVfXR1bIyR799CcKdXRnhU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,54 +42,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/lavi3/IdeaProjects/Lavie/2.JAVA/Testing14/testing14_demogit"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lavi3/IdeaProjects/Lavie/2.JAVA/Testing14/testing14_demogit&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Testing14_continue_II">
-    <configuration name="Testing14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testing14" />
+}</component>
+  <component name="RunManager" selected="Application.baitap_buoi5">
+    <configuration name="Testing14_continue_III (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing14_continue_III" />
       <module name="java_basic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing14_continue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testing14_continue" />
+    <configuration name="Testing14_continue_III" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing14_continue_III" />
       <module name="java_basic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing14_continue_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testing14_continue_II" />
+    <configuration name="Testing14_continue_IV (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing14_continue_IV" />
       <module name="java_basic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai_tap.bai_tap_buoi2a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.bai_tap_buoi2a" />
+    <configuration name="Testing14_continue_IV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing14_continue_IV" />
+      <module name="java_basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="baitap_buoi5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.buoi5.baitap_buoi5" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bai_tap_buoi3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.bai_tap_buoi3" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai_tap.*" />
+          <option name="PATTERN" value="bai_tap.buoi5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Testing14_continue_II" />
-        <item itemvalue="Application.Testing14_continue" />
-        <item itemvalue="Application.bai_tap_buoi3" />
-        <item itemvalue="Application.Testing14" />
-        <item itemvalue="Application.bai_tap.bai_tap_buoi2a" />
+        <item itemvalue="Application.baitap_buoi5" />
+        <item itemvalue="Application.Testing14_continue_IV (1)" />
+        <item itemvalue="Application.Testing14_continue_IV" />
+        <item itemvalue="Application.Testing14_continue_III" />
+        <item itemvalue="Application.Testing14_continue_III (1)" />
       </list>
     </recent_temporary>
   </component>
